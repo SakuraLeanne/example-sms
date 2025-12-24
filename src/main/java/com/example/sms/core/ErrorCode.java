@@ -18,5 +18,17 @@ public enum ErrorCode {
     IDEMPOTENT_REJECTED,
 
     /** 客户端内部错误 */
-    CLIENT_ERROR
+    CLIENT_ERROR,
+
+    /** 服务商限流 */
+    PROVIDER_THROTTLED,
+
+    /** 服务商参数错误 */
+    PROVIDER_INVALID_PARAM,
+
+    /** 服务商认证失败 */
+    PROVIDER_AUTH_ERROR,
+
+    /** 服务商未知错误 */
+    PROVIDER_ERROR
 }
